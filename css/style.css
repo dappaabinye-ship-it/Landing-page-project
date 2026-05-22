@@ -2,6 +2,7 @@ body{
     min-height: 100vh;
     margin:0;
     padding: 0;
+    font-family: roboto;
 }
 
 .menu{
@@ -54,4 +55,15 @@ a{
   justify-content:space-between;
   align-items:center;
   width:75%;
+}
+
+.text{
+  font-size:48px;
+  color:#F9FAF8;
+  font-weight:900;
+}
+
+.subtext{
+  font-size: 18px;
+  color:#E5E7EB
 }
