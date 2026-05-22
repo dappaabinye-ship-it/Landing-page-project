@@ -32,7 +32,8 @@ a{
   display:flex;
   flex-direction:column;
   align-items:center;
-  gap:10px;
+  gap:70px;
+  padding-bottom:70px;
 }
 
 .logo{
@@ -42,12 +43,14 @@ a{
 }
 
 .m1{
-  width:200px;
+  width:420px;
   height:auto;
 }
 
-.image{
- /* padding:10px;*/
+.left-stuff{
+  display:flex;
+  flex-direction:column;
+  gap:25px;
 }
 
 .htext{
@@ -55,6 +58,7 @@ a{
   justify-content:space-between;
   align-items:center;
   width:75%;
+  gap:45px;
 }
 
 .text{
@@ -65,5 +69,7 @@ a{
 
 .subtext{
   font-size: 18px;
-  color:#E5E7EB
+  color:#E5E7EB;
+  width:420px;
 }
+  
