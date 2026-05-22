@@ -8,6 +8,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items:center;
+    width:75%;
 }
 
 ul{
@@ -27,6 +28,10 @@ a{
 .hero{
   background-color:#1F2937;
   font-family:roboto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
 }
 
 .logo{
@@ -41,11 +46,12 @@ a{
 }
 
 .image{
-  padding:10px;
+ /* padding:10px;*/
 }
 
 .htext{
   display:flex;
   justify-content:space-between;
   align-items:center;
+  width:75%;
 }
