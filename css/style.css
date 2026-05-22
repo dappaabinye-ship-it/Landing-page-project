@@ -10,6 +10,7 @@ body{
     justify-content: space-between;
     align-items:center;
     width:75%;
+    padding:10px;
 }
 
 ul{
@@ -71,5 +72,19 @@ a{
   font-size: 18px;
   color:#E5E7EB;
   width:420px;
+}
+
+.b1{
+  width:18%;
+}
+
+.in{
+  width:100%;
+  border-radius:6px;
+  background-color:#3882F6;
+  border:none;
+  color:#F9FAF8;
+  font-weight:900;
+  padding:5px;
 }
   
