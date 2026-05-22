@@ -41,6 +41,11 @@ a{
 }
 
 .image{
-  display:flex;
   padding:10px;
+}
+
+.htext{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
 }
