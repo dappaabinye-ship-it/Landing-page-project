@@ -150,6 +150,7 @@ a{
 
 .Name{
   align-self:flex-end;
+  font-weight: 900;
 }
 
 .size{
