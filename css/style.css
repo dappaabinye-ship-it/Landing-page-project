@@ -59,7 +59,7 @@ a{
   justify-content:space-between;
   align-items:center;
   width:75%;
-  gap:45px;
+  gap:29px;
 }
 
 .text{
@@ -71,7 +71,7 @@ a{
 .subtext{
   font-size: 18px;
   color:#E5E7EB;
-  width:420px;
+  height:auto;
 }
 
 .b1{
