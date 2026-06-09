@@ -209,3 +209,13 @@ a{
   font-weight:900;
   font-size:18px;
 }
+
+.footer{
+  display:flex;
+  height:100px;
+  background-color:#1F2932;
+  color:#E5E7EB;
+  justify-content:center;
+  align-items:center;
+  font-size:12px;
+}
