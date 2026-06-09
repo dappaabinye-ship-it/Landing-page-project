@@ -161,3 +161,51 @@ a{
   width:60%;
   gap:10px;
 }
+
+.lowest{
+  height:400px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.blue{
+  width:75%;
+  background-color:#3882F6;
+  height:150px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  border-radius:9px;
+}
+
+.content{
+  display:flex;
+  justify-content:space-between;
+  width:65%;
+  gap:25px;
+  align-items:center;
+}
+
+.in2{
+  background-color:#3882F6;
+  border: 0px;
+  outline:2px solid white;
+  border-radius:4px;
+  color:white;
+  width:95px;
+  padding:0px;
+  height:30px;
+}
+
+.action{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.call{
+  font-weight:900;
+  font-size:18px;
+}
