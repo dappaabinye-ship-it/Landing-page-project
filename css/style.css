@@ -3,6 +3,13 @@ body{
     margin:0;
     padding: 0;
     font-family: roboto;
+    display:flex;
+}
+
+.everything{
+  flex:1;
+  display:flex;
+  flex-direction:column;
 }
 
 .menu{
@@ -34,7 +41,7 @@ a{
   flex-direction:column;
   align-items:center;
   gap:70px;
-  padding-bottom:70px;
+  flex:1;
 }
 
 .logo{
@@ -59,7 +66,7 @@ a{
   justify-content:space-between;
   align-items:center;
   width:75%;
-  gap:29px;
+  margin-top:70px;
 }
 
 .text{
@@ -94,6 +101,7 @@ a{
   align-items:center;
   height:490px;
   justify-content:space-evenly;
+  flex:1;
 }
 
 .t1{
@@ -146,6 +154,7 @@ a{
   font-size: 36px;
   color: #1F2932;
   font-weight: 300;
+  flex:1;
 }
 
 .Name{
@@ -167,6 +176,7 @@ a{
   display:flex;
   justify-content:center;
   align-items:center;
+  flex:1;
 }
 
 .blue{
