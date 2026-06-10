@@ -66,6 +66,7 @@ a{
   align-items:center;
   width:75%;
   flex:1;
+  gap:50px;
 }
 
 .text{
@@ -227,4 +228,10 @@ a{
   justify-content:center;
   align-items:center;
   font-size:12px;
+}
+
+@media(max-width:500px){
+  .htext{
+    flex-wrap:wrap;
+  }
 }
