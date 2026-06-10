@@ -1,5 +1,8 @@
 # Landing-page-project
 
+#Live demo
+https://dappaabinye-ship-it.github.io/Landing-page-project/
+
 ## Description
 In this project, I will be creating a landing page for a hypothetical business. I will be required to style the page using normal css and css flexbox such that it comes out exactly as it should.
 
