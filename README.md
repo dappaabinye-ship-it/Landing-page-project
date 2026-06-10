@@ -18,5 +18,7 @@ This project is to test all I have learned in html and css so far especially css
 Abinye Dappa
 
 ## Acknowledgements
-THE ODIN PROJECT
+### THE ODIN PROJECT
 This project was assigned to me by the odin project, the resource from which I am learning to code.
+### UNSPLASH
+All pictures used in this project were gotten from "unsplash.com".
