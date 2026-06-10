@@ -1,6 +1,6 @@
 # Landing-page-project
 
-# Live demo
+## Live demo
 https://dappaabinye-ship-it.github.io/Landing-page-project/
 
 ## Description
