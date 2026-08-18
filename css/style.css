@@ -10,6 +10,7 @@ body{
   flex:1;
   display:flex;
   flex-direction:column;
+  padding:0px;
 }
 
 .menu{
@@ -40,7 +41,9 @@ a{
   display:flex;
   flex-direction:column;
   align-items:center;
-  flex:1;
+  flex-grow:1;
+  flex-shrink:1;
+  flex-basis:500px;
 }
 
 .logo{
@@ -99,9 +102,8 @@ a{
   display:flex;
   flex-direction:column;
   align-items:center;
-  height:490px;
   justify-content:space-evenly;
-  flex:1;
+  flex:1 1 490px;
 }
 
 .t1{
@@ -154,7 +156,7 @@ a{
   font-size: 36px;
   color: #1F2932;
   font-weight: 300;
-  flex:1;
+  flex:1 1 500px;
 }
 
 .Name{
@@ -176,7 +178,7 @@ a{
   display:flex;
   justify-content:center;
   align-items:center;
-  flex:1;
+  flex:1 1 400px;
 }
 
 .blue{
@@ -233,11 +235,16 @@ a{
 @media (max-width:768px){
   .htext{
    flex-wrap: wrap;
+   margin:0px;
   }
   
   .hero{
-    padding-left:30px;
-    padding-right:30px;
     padding-bottom:30px;
+  }
+  
+  .m1{
+    width:85%;
+    height:auto;
+    margin:0px;
   }
 }
