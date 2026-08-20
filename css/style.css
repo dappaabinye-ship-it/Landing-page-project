@@ -17,8 +17,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    padding: 0;
+    width: 75%;
+    padding: 10px;
 }
 
 ul {
@@ -73,7 +73,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 75%;
     flex: 1;
     gap: 50px;
 }
@@ -262,7 +262,7 @@ a {
     }
 
     .menu {
-        width: 85%;
+        width: 80%;
     }
 
     .m1 {
@@ -349,8 +349,15 @@ a {
         font-size:16px;
     }
 
-    .taction{
+    .to-action{
         font-size:12px;
     }
 
+    .lowest{
+      flex:1 1 250px;
+    }
+
+    .footer{
+      height:30px;
+    }
 }
