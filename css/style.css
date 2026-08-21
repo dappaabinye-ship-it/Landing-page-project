@@ -247,6 +247,10 @@ a {
     font-size: 12px;
 }
 
+.bullet{
+    list-style: circle;
+}
+
 @media (max-width: 768px) {
     .htext {
         flex-wrap: wrap;
@@ -300,7 +304,7 @@ a {
 
     .boxes {
         flex-wrap: wrap;
-        width: 70%;
+        width: 85%;
     }
 
     .image1 {
@@ -333,12 +337,14 @@ a {
     }
 
     .blue {
-        width: 85%;
+        width: 87%;
+        height:50%;
     }
     
     .wrap1,.wrap2{
       width:100%;
-      justify-content:space-evenly;
+      justify-content:space-around;
+      gap:20px;
     }
 
     .italic{
@@ -360,4 +366,18 @@ a {
     .footer{
       height:30px;
     }
+
+    strong{
+        font-size:12px;
+    }
+
+    .random{
+        font-size:13px;
+    }
+
+    .b2,.b3,.b4,.b5{
+        width:80px;
+        height:80px;
+    }
+
 }
